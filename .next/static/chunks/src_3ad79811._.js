@@ -172,6 +172,11 @@ const skills = [
                 name: "Netlify",
                 icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SiNetlify"],
                 color: "#00C7B7"
+            },
+            {
+                name: "Postman",
+                icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$si$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["SiPostman"],
+                color: "#FF6C37"
             }
         ]
     },
@@ -202,7 +207,7 @@ const about = {
     title: "Aspiring Software Engineer | Golang Developer | AI Enthusiast",
     location: "Chittagong, Bangladesh",
     email: "jahidul.islam114593@gmail.com",
-    website: "",
+    website: "https://jah-portfolio-v1.vercel.app/",
     social: {
         linkedin: "https://www.linkedin.com/in/jahidevan/",
         github: "https://github.com/jahidulislam114593",

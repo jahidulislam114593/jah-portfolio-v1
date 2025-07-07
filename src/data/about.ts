@@ -24,7 +24,8 @@ import {
   SiNetlify,
   SiCplusplus,
   SiGo,
-  SiTensorflow
+  SiTensorflow,
+  SiPostman
 } from "react-icons/si";
 import { FaProjectDiagram } from "react-icons/fa";
 
@@ -83,7 +84,8 @@ export const skills = [
       { name: "Git", icon: SiGit, color: "#F05032" },
       { name: "GitHub", icon: SiGithub, color: "#FFFFFF" },
       { name: "Vercel", icon: SiVercel, color: "#000000" },
-      { name: "Netlify", icon: SiNetlify, color: "#00C7B7" }
+      { name: "Netlify", icon: SiNetlify, color: "#00C7B7" },
+      { name: "Postman", icon: SiPostman, color: "#FF6C37" }, // Added Postman
     ]
   },
   {
@@ -102,7 +104,7 @@ export const about = {
   title: "Aspiring Software Engineer | Golang Developer | AI Enthusiast",
   location: "Chittagong, Bangladesh",
   email: "jahidul.islam114593@gmail.com",
-  website: "",
+  website: "https://jah-portfolio-v1.vercel.app/",
   social: {
     linkedin: "https://www.linkedin.com/in/jahidevan/",
     github: "https://github.com/jahidulislam114593",
