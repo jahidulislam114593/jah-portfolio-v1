@@ -20,10 +20,19 @@ import { RiRobot2Line } from "react-icons/ri";
 
 export const projects = [
   {
+    title: "Drag-File",
+    url: "https://drag-file.vercel.app/",
+    image: "/project-images/drag-file.png",
+    description:
+      "A modern, interactive document uploader built with React, Framer Motion, and TailwindCSS. Upload, preview, and download files with a sleek drag-and-drop inspired card UI.",
+    tech: [SiReact, SiJavascript, SiTailwindcss, SiFramer],
+  },
+  {
     title: "Go-Bookstore-API",
     url: "https://github.com/jahidprog/go-bookstore-api.git",
     image: "/project-images/bookstore-api.png",
-    description: "A Book Management System using Go and MySQL, implementing full CRUD operations with GORM and Gorilla Mux. Focused on clean API design, modular project structure, and real-world database interaction using ORM.",
+    description:
+      "A Book Management System using Go and MySQL, implementing full CRUD operations with GORM and Gorilla Mux. Focused on clean API design, modular project structure, and real-world database interaction using ORM.",
     tech: [SiGo, SiMysql],
   },
 
@@ -31,7 +40,8 @@ export const projects = [
     title: "Go-Checkmail",
     url: "https://github.com/jahidprog/go-checkMail.git",
     image: "/project-images/check-mail.png",
-    description: "A Go-based CLI tool that validates domain DNS configurations by checking for MX, SPF, and DMARC records. Designed for quick diagnostics of email readiness and security policies.",
+    description:
+      "A Go-based CLI tool that validates domain DNS configurations by checking for MX, SPF, and DMARC records. Designed for quick diagnostics of email readiness and security policies.",
     tech: [SiGo],
   },
 
@@ -39,21 +49,24 @@ export const projects = [
     title: "FileOrganizer",
     url: "https://github.com/jahidulislam114593/file-organizer.git",
     image: "/project-images/file-organizer.png",
-    description: "A simple and efficient CLI application written in Golang to automatically organize files in a directory based on their file types (extensions). Ideal for cleaning up your messy 'Downloads' or 'Desktop' folder with a single command!",
+    description:
+      "A simple and efficient CLI application written in Golang to automatically organize files in a directory based on their file types (extensions). Ideal for cleaning up your messy 'Downloads' or 'Desktop' folder with a single command!",
     tech: [SiGo],
   },
   {
     title: "MusicWorld",
     url: "https://worldmusic.vercel.app/",
     image: "/project-images/musicworld.png",
-    description: "Developed a modern and intuitive UI leveraging the Aceternity UI library, overcoming technical challenges to deliver a polished user experience.",
+    description:
+      "Developed a modern and intuitive UI leveraging the Aceternity UI library, overcoming technical challenges to deliver a polished user experience.",
     tech: [SiNextdotjs, SiTypescript, MdAnimation, SiTailwindcss],
   },
   {
     title: "DragonAuth",
     url: "https://dragon-auth-9b745.web.app/",
     image: "/project-images/dragon-auth.png",
-    description: "Built a user authentication system with React, Firebase, and Tailwind CSS, featuring Firebase Authentication for user management, protected routes, role-based access, and secure token-based authentication.",
+    description:
+      "Built a user authentication system with React, Firebase, and Tailwind CSS, featuring Firebase Authentication for user management, protected routes, role-based access, and secure token-based authentication.",
     tech: [SiReact, SiJavascript, SiTailwindcss, SiFirebase],
   },
   // {
@@ -67,7 +80,8 @@ export const projects = [
     title: "Glasses",
     url: "https://glasses-auth-39338.web.app/",
     image: "/project-images/glasses.png",
-    description: "Built a responsive e-commerce platform using React and Tailwind CSS, featuring product listings, filtering, and shopping cart functionality, with a modern UI design.",
+    description:
+      "Built a responsive e-commerce platform using React and Tailwind CSS, featuring product listings, filtering, and shopping cart functionality, with a modern UI design.",
     tech: [SiReact, SiTailwindcss, SiJavascript, SiFirebase],
   },
 
